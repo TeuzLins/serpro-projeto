@@ -6,16 +6,21 @@ O projeto mistura estética de Windows XP, erro de sistema, tela azul, pop-ups a
 
 ## Sumário
 
-- [Sobre o projeto](#sobre-o-projeto)
-- [Tecnologias utilizadas](#tecnologias-utilizadas)
-- [Funcionalidades](#funcionalidades)
-- [Como funciona](#como-funciona)
-- [Como executar](#como-executar)
-- [Estrutura do projeto](#estrutura-do-projeto)
-- [Destaques do projeto](#destaques-do-projeto)
-- [Melhorias futuras](#melhorias-futuras)
-- [Autor](#autor)
-- [License](#license)
+* [Preview](#preview)
+* [Sobre o projeto](#sobre-o-projeto)
+* [Tecnologias utilizadas](#tecnologias-utilizadas)
+* [Funcionalidades](#funcionalidades)
+* [Como funciona](#como-funciona)
+* [Como executar](#como-executar)
+* [Estrutura do projeto](#estrutura-do-projeto)
+* [Destaques do projeto](#destaques-do-projeto)
+* [Melhorias futuras](#melhorias-futuras)
+* [Autor](#autor)
+* [License](#license)
+
+## Preview
+
+![Preview do projeto](./assets/sitememe.png)
 
 ## Sobre o projeto
 
@@ -27,58 +32,58 @@ O resultado é uma experiência visual propositalmente caótica, com elementos q
 
 ## Tecnologias utilizadas
 
-- HTML5
-- CSS3
-- JavaScript Vanilla
+* HTML5
+* CSS3
+* JavaScript Vanilla
 
 ## Funcionalidades
 
-- Fundo animado com gradiente multicolorido
-- Efeito de scanline simulando tela antiga
-- Texto principal com efeito glitch
-- Ícones falsos de desktop
-- Barra de tarefas inspirada no Windows XP
-- Botão que intensifica o caos visual
-- Pop-ups aleatórios com mensagens de erro
-- Elementos visuais surgindo dinamicamente na tela
-- Rastro animado no cursor do mouse
-- Relógio funcional na barra inferior
-- Tela azul fake ao clicar no botão proibido
-- Interações feitas com JavaScript puro
+* Fundo animado com gradiente multicolorido
+* Efeito de scanline simulando tela antiga
+* Texto principal com efeito glitch
+* Ícones falsos de desktop
+* Barra de tarefas inspirada no Windows XP
+* Botão que intensifica o caos visual
+* Pop-ups aleatórios com mensagens de erro
+* Elementos visuais surgindo dinamicamente na tela
+* Rastro animado no cursor do mouse
+* Relógio funcional na barra inferior
+* Tela azul fake ao clicar no botão proibido
+* Interações feitas com JavaScript puro
 
 ## Como funciona
 
 O projeto utiliza várias animações CSS com `@keyframes` para criar efeitos visuais como:
 
-- Tremedeira
-- Glitch
-- Rotação
-- Mudança de cores
-- Movimento contínuo de elementos
-- Fundo animado
-- Simulação de tela azul
+* Tremedeira
+* Glitch
+* Rotação
+* Mudança de cores
+* Movimento contínuo de elementos
+* Fundo animado
+* Simulação de tela azul
 
 No JavaScript, são criadas interações dinâmicas como:
 
-- Geração automática de pop-ups
-- Criação de elementos visuais aleatórios
-- Efeito de rastro no movimento do mouse
-- Controle da tela azul fake
-- Atualização do relógio em tempo real
-- Aumento progressivo do caos ao clicar no botão principal
+* Geração automática de pop-ups
+* Criação de elementos visuais aleatórios
+* Efeito de rastro no movimento do mouse
+* Controle da tela azul fake
+* Atualização do relógio em tempo real
+* Aumento progressivo do caos ao clicar no botão principal
 
 ## Como executar
 
 Clone este repositório:
 
 ```bash
-git clone https://github.com/seu-usuario/seu-repositorio.git
+git clone https://github.com/TeuzLins/serpro-projeto.git
 ```
 
 Acesse a pasta do projeto:
 
 ```bash
-cd nome-do-repositorio
+cd serpro-projeto
 ```
 
 Abra o arquivo `index.html` diretamente no navegador.
@@ -93,31 +98,35 @@ Também é possível executar com a extensão Live Server no VS Code:
 
 ```bash
 /
+├── assets/
+│   └── sitememe.png
 ├── index.html
-└── README.md
+├── README.md
+├── LICENSE
+└── .gitignore
 ```
 
 ## Destaques do projeto
 
 Algumas mensagens e ideias presentes no site:
 
-- Mateus.exe parou de funcionar
-- CSS recusou atendimento
-- HTML pediu férias
-- Erro 404: bom senso não encontrado
-- Windows mandou currículo para outra empresa
-- A responsividade desistiu
+* Mateus.exe parou de funcionar
+* CSS recusou atendimento
+* HTML pediu férias
+* Erro 404: bom senso não encontrado
+* Windows mandou currículo para outra empresa
+* A responsividade desistiu
 
 ## Melhorias futuras
 
-- Adicionar sons de erro inspirados em sistemas antigos
-- Criar um modo de caos extremo
-- Adicionar botão para restaurar o sistema
-- Criar contador de cliques nos botões
-- Separar o CSS em um arquivo próprio
-- Separar o JavaScript em um arquivo próprio
-- Melhorar a responsividade para telas menores
-- Adicionar novas telas falsas de erro
+* Adicionar sons de erro inspirados em sistemas antigos
+* Criar um modo de caos extremo
+* Adicionar botão para restaurar o sistema
+* Criar contador de cliques nos botões
+* Separar o CSS em um arquivo próprio
+* Separar o JavaScript em um arquivo próprio
+* Melhorar a responsividade para telas menores
+* Adicionar novas telas falsas de erro
 
 ## Autor
 
@@ -139,7 +148,7 @@ Algumas mensagens e ideias presentes no site:
 
 ## License
 
-Este projeto está sob a Apache License 2.0.  
+Este projeto está sob a Apache License 2.0.
 Consulte o arquivo [LICENSE](./LICENSE) para mais detalhes.
 
 </div>
