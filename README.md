@@ -77,13 +77,13 @@ No JavaScript, são criadas interações dinâmicas como:
 Clone este repositório:
 
 ```bash
-git clone https://github.com/TeuzLins/serpro-projeto.git
+git clone https://github.com/TeuzLins/mateus-exe-apocalipse.git
 ```
 
 Acesse a pasta do projeto:
 
 ```bash
-cd serpro-projeto
+cd mateus-exe-apocalipse
 ```
 
 Abra o arquivo `index.html` diretamente no navegador.
